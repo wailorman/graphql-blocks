@@ -90,6 +90,7 @@ const getFromModuleFiles = (modulesPath, utilityName) => {
 
       _debug('Requiring %o file', utilityFilePath);
 
+      // eslint-disable-next-line global-require
       const res = require(utilityFilePath);
 
       if (!res) {

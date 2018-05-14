@@ -9,7 +9,8 @@
     "quotes": ["off"],
     "no-underscore-dangle": ["off"],
     "no-unused-expressions": ["off"],
-    "global-require": ["off"]
+    "no-param-reassign": ["off"],
+    "no-plusplus": ["off"]
   },
   "globals": {
     "it": true,

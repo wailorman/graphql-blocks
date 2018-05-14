@@ -1,0 +1,24 @@
+{
+  "env": {
+    "commonjs": true
+  },
+  "extends": ["airbnb-base"],
+  "rules": {
+    "func-names": ["off"],
+    "import/no-dynamic-require": ["off"],
+    "quotes": ["off"],
+    "no-underscore-dangle": ["off"],
+    "no-unused-expressions": ["off"],
+    "global-require": ["off"]
+  },
+  "globals": {
+    "it": true,
+    "describe": true,
+    "before": true,
+    "after": true,
+    "beforeEach": true,
+    "afterEach": true,
+    "beforeAll": true,
+    "afterAll": true
+  }
+}

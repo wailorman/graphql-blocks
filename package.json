@@ -1,6 +1,6 @@
 {
   "name": "graphql-blocks",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "index.js",
   "repository": "https://github.com/wailorman/graphql-blocks.git",
   "author": "Sergey Popov <wailorman@gmail.com>",

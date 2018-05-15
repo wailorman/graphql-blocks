@@ -6,6 +6,9 @@
   "author": "Sergey Popov <wailorman@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "ball-fixtures": "^0.1.0",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
     "compose-function": "^3.0.3",
     "date-fns": "^1.29.0",
     "debug": "^3.1.0",

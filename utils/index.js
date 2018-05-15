@@ -287,3 +287,24 @@ exports.alternateArray = (array, opts = {}) => {
 
   return res;
 };
+
+exports.generateNames = (entityName) => {
+  const lowerCamelCaseName = inflection.camelize(inflection.underscore(entityName), true);
+
+  const gqlList = inflection.pluralize(lowerCamelCaseName);
+  const gqlOne = lowerCamelCaseName;
+  const entityForeignKey = `${lowerCamelCaseName}Id`;
+  const createEntity = `create${entityName}`;
+  const updateEntity = `update${entityName}`;
+  const deleteEntity = `delete${entityName}`;
+
+  return {
+    lowerCamelCaseName,
+    gqlList,
+    gqlOne,
+    entityForeignKey,
+    createEntity,
+    updateEntity,
+    deleteEntity,
+  };
+};

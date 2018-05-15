@@ -1,1 +1,1 @@
-# graphql-blocks
+# THIS PACKAGE IS NOT READY TO USE

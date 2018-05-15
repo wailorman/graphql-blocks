@@ -8,13 +8,21 @@
   "dependencies": {
     "date-fns": "^1.29.0",
     "debug": "^3.1.0",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.11.0",
-    "graphql": "^0.10.5",
     "inflection": "^1.12.0",
     "koa-compose": "^4.0.0",
     "lodash": "^4.17.10",
     "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "@team-griffin/install-self-peers": "^1.1.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0"
+  },
+  "peerDependencies": {
+    "graphql": "0.10.5"
+  },
+  "scripts": {
+    "install-peer": "install-self-peers -- --ignore-scripts"
   }
 }

@@ -6,10 +6,10 @@ const ballFixtures = require('ball-fixtures');
 const { assert } = chai;
 
 module.exports = (conf = {}) => {
-  const { queryFactory, db } = conf;
+  const { query, db } = conf;
   const E = {};
 
-  const query = queryFactory({ db });
+  // const query = queryFactory({ db });
   const fixtures = ballFixtures({ db });
 
   const getExamplePayloads = (exampleData) => {

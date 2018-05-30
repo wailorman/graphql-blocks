@@ -99,9 +99,9 @@ balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
 
-ball-fixtures@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/ball-fixtures/-/ball-fixtures-0.1.0.tgz#2f5db44a6c43860f566134203e0bb91deacf7e5f"
+ball-fixtures@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/ball-fixtures/-/ball-fixtures-0.1.1.tgz#6bcce0f0f29c2a3ec489478945ac4a5bce9cd664"
   dependencies:
     lodash.pad "^4.5.1"
 
